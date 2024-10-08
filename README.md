@@ -10,6 +10,8 @@ In this workshop, we produced two notebooks
 
 We created this notebook using Google Colab, but it should work if you open it with Jupyter Notebook on your laptop or workstation. This notebook contains to read a CSV file containing Covid testing data from Carbon Health into a pandas dataframe. 
 
+Some of the code in this notebook was generated through Colab's AI coding assistant. We will continue to use this tool throughout the workshop series. You can identify code that was AI generated through the prompt, which is added at the start of the code cell with the text "#prompt:" prepended to the instructions issued to the AI asstant. 
+
 For more information on this data set, see: https://covidclinicaldata.org
 
 
