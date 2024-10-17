@@ -29,13 +29,17 @@ To access the Oregon Sugar Document prepared dataset, see: https://www.industryd
 
 In this workshop, we produced three notebooks.
 
-### Covid-Mock-Data.ipynb
+### Covid_Mock_Data.ipynb
 
 We created this document to illustrate how to create a mock dataset that is similar in structure to a real dataset. This can be useful when providing sample data for collaborations or testing when the original dataset can't be shared (due to size, security, or other constraints). Specifically, we used Generative AI to generate code for creating a pandas dataframe that closely matches the Covid data from Carbon Health. 
 
-### Covid-Queries.ipynb
+### Covid_Queries.ipynb
 
-In his workbook, we downloaded all Covid testing data from carbon health, created a pandas dataframe, and used SQL to create queries reporting on the frequency of different symptoms with positive or negative covid tests. 
+In his workbook, we downloaded all Covid testing data from carbon health, created a pandas dataframe, and used SQL to create queries reporting on the frequency of different symptoms with positive or negative covid tests. We created this notebook on google colab, so you will see the AI prompts we used to create queries and describe visualizations.
+
+### Covid_Queries_Local.ipynb
+
+We created this notebook locally with Jupyter Notebook through Anaconda Navigator. It contains code for installing pandasql, reading a csv file into a pandas dataframe through a web url, and creating various analytical queries on the covid testing dataset from Carbon Health. 
 
 
 
