@@ -25,7 +25,7 @@ To access the Oregon Sugar Document prepared dataset, see: https://www.industryd
 (follow the link to "data sets" - you may need to scroll to find it. I'll be easier if you sort by file size in ascending order). 
 
 
-## Intro to Python and SQL, Part 2 (10/4/24)
+## Intro to Python and SQL, Part 2 (10/11/24)
 
 In this workshop, we produced three notebooks.
 
