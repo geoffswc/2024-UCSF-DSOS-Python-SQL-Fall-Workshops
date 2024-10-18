@@ -41,6 +41,23 @@ In his workbook, we downloaded all Covid testing data from carbon health, create
 
 We created this notebook locally with Jupyter Notebook through Anaconda Navigator. It contains code for installing pandasql, reading a csv file into a pandas dataframe through a web url, and creating various analytical queries on the covid testing dataset from Carbon Health. 
 
+## Python and Web APIs, Part 1 (10/18/24)
+
+In this workshop, we created four notebooks to investigate how to work with Python Dictionaries to query and parse JSON data from Web APIs. We used the API from the National Library of Medicine's RXNorm database and the Industry Documents Library SOLR based web service for searching documents.
+
+### Python-Dictionaries.ipynb
+We created this notebook to illustrate the drawbacks of using lists or dataframes for storing data based on key/value pairs, and created a dictionary to hold the caffeine content of different beverages in a table from the Mayo Clinic page. 
+
+### Caffeine-Dictionary.ipynb
+We created this notbook on google colab to see how the generative AI coding assistant would translate the information on caffeine content into a dictionary. Interestingly, the data was largely but not completely accurate and contained information for beverages not listed on the Mayo Clinic page. 
+
+### Web-API-Python.ipynb
+In this workbook, we queried the National Library of Medicine's public API for information on prescription drugs and read the results into a JSON document that we converted into a python dictionary. We created a look to extract the synonyms listed for various drugs. We had the change to look into a deeply nested and fairly complicated JSON document. 
+
+### Industry-Documents-API.ipynb
+We created this workbook on google colab. We queried and parsed information from the Industry Documents Library API, and used generative AI to parse and extract data. 
+
+
 
 
 
