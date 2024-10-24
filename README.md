@@ -57,7 +57,19 @@ In this workbook, we queried the National Library of Medicine's public API for i
 ### Industry-Documents-API.ipynb
 We created this workbook on google colab. We queried and parsed information from the Industry Documents Library API, and used generative AI to parse and extract data. 
 
+## Image, Audio, and Video to Text Transcription with Python
 
+### Doctr_Ocr.ipynb
+Google Colab notebook, demo OCR open source tool doctr_ocr
+
+### Py_Tesseract_OCR.ipynb
+Google Colab notebook, demo OCR open source tool py-tesseract
+
+### Whisper_AI_Transcription.ipynb
+Google Colab notebook, demo Whisper AI video/audio transcription
+
+### Google Demo API
+https://cloud.google.com/use-cases/ocr
 
 
 
