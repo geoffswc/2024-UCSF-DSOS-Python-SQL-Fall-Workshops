@@ -59,17 +59,69 @@ We created this workbook on google colab. We queried and parsed information from
 
 ## Image, Audio, and Video to Text Transcription with Python (10/25/24)
 
-### Doctr_Ocr.ipynb
-Google Colab notebook, demo OCR open source tool doctr_ocr
+In this workshop, we wrote Python Code using Google Colab to extract transcripts from image and video files on the Industry Archives.
 
 ### Py_Tesseract_OCR.ipynb
-Google Colab notebook, demo OCR open source tool py-tesseract
+We used this notebook to use py-tesseract to extract code from a PDF file hosted on the industry archives. We tried out a few different files.
 
-### Whisper_AI_Transcription.ipynb
-Google Colab notebook, demo Whisper AI video/audio transcription
+First, we searched on "avocado" and used some pdf scands of printed material that led to high quality, high accuracy transcriptions using tesseract.
+If you'd like to try this, go to https://www.industrydocuments.ucsf.edu and search on "avocado" (the IDL team told me they often use this to test search, as avocados have some chemical properties in common with tobacco). 
+For a test file, we used "Henry Avocado Recalls Whole Avocados Because Of Possible Health Risk" 
+https://www.industrydocuments.ucsf.edu/tobacco/docs/#id=sgfv0291
+This file transcribed with high accuracy using tesseract. This is what we expected, as tesseract is widely used for transcribing printed, typeset material in images.
+
+Next, we tried some other handwritten files and people in the class tried searchign the archives and proposing handwritten messages to test. This one posed a particularly difficult challenge for tesseract (cursive, and rotated sideways!)
+https://www.industrydocuments.ucsf.edu/tobacco/docs/#id=jjvy0083
+
+Unfortunately, we weren't able to get a good transcription from this using tesseract, but we were able to get a partial transcript using Google Document AI (below). 
+
+### Doctr_Ocr.ipynb
+We didn't use this specific OCR tool during the workshop, but you might be interested in trying it or other OCR Tools. I found that it is similar to Tesseract in that it is effective with printed text but doesn't perform very well with handwriting. 
 
 ### Google Demo API
+
+Google offers a cloud based API for video and image transcription, but you need a paid account to use the programming API. However, there is a demo form available that will accept single image or pdf file uploads available at: 
 https://cloud.google.com/use-cases/ocr
+
+We tried the cursive, lined, sideways rotated image from https://www.industrydocuments.ucsf.edu/tobacco/docs/#id=jjvy0083 (where we couldn't get a good transcription using tesseract). The reults were good enough to be useable - and remember, this is an unusually difficult transcription. Here's the result - feel free to compare to the original on the IDL site. 
+
+*Janise 1996
+m. Pa
+Clay Live
+Dear Sivi
+This
+is an I owe you letter
+because if you can take time
+to read my complaining letter
+and do something about it, this
+letter is then pristified
+Deeling my stadiving
+blanket a few wicke
+curate ales received that lame
+week the "after" for the solem
+Lighter" which I also promptly
+filled gut and sent.
+very next.
+The blanket is ver
+it's grew into my case, t
+hope I never need it but if I ds
+it's there. Thank you, now
+Сан
+at imagine other also
+recured my lighter Ipent my
+offer in inden 10-96 and*
+
+A big challenge at the Library is knowing when to use the more expensive, computationally expensive transcription technology for OCR. An additional challenge is that many documents have a combination of printed and cursive or handwritten text, making it difficult to know when we are losing data. Although we can tell the difference between pure handwriting and pure typeset, documents that mix the two remain more difficult to identify. 
+
+### Whisper_AI_Transcription.ipynb
+After image based OCR, we moved on to video-to-text transcription. For this, we used Whisper, an open source product from OpenAI. Whisper is also available as a web based API (paid service), but the open source version delivers high quality high accuracy transcription for video and audio files.
+
+For a test transcription demo, we used a file from the Industry Archives, a collection of industry-produced "anti-smoking" ads from the late 1990s and early 2000s. Because video-to-text transcription can be computationally expensive, we also reviewed how to change the run environment in google colab to use GPU processors. This did substantially reduce the processing time. We also investigated the difference between large, small, tiny pre-trained language models to transcribe speech.
+
+One interesting result is that some of the larger language models repeated phrases that weren't evidently present in the video. Hard to know why - it could be hallucination from the AI system, though one participant raised the possibility that larger models might pick up on background music. I listened carefully to the video again and didn't hear any of these phrases, but it's still possible that the larger more powerful models are attempting to transcribe musical notes into words while smaller models just ignore it (this is a guess, I don't really know). 
+
+
+
 
 
 
