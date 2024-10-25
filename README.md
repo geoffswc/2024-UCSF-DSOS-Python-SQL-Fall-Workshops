@@ -111,6 +111,8 @@ at imagine other also
 recured my lighter Ipent my
 offer in inden 10-96 and*
 
+(note - this was only the first page of the file)
+
 A big challenge at the Library is knowing when to use the more expensive, computationally expensive transcription technology for OCR. An additional challenge is that many documents have a combination of printed and cursive or handwritten text, making it difficult to know when we are losing data. Although we can tell the difference between pure handwriting and pure typeset, documents that mix the two remain more difficult to identify. 
 
 ### Whisper_AI_Transcription.ipynb
