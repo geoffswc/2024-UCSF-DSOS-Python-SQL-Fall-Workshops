@@ -2,9 +2,13 @@
 
 Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Library
 
-[This is the link text](#python-background-for-text-analysis-and-natural-language-processing)
+- [Intro to Python and SQL Part 1](#intro-to-python-and-sql-part-1)
+- [Intro to Python and SQL Part 2](#intro-to-python-and-sql-part-2)
+- [Image, Audio, and Video to Text Transcription with Python](#python-background-for-text-analysis-and-natural-language-processing)
+- [Python and Web APIs](#python-and-web-apis)
+- [Python Background for Text Analysis and Natural Language Processing](#python-background-for-text-analysis-and-natural-language-processing)
 
-## Intro to Python and SQL, Part 1 
+## Intro to Python and SQL Part 1 
 (10/4/24)
 
 In this workshop, we produced two notebooks
