@@ -4,8 +4,8 @@ Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Libr
 
 - [Intro to Python and SQL Part 1](#intro-to-python-and-sql-part-1)
 - [Intro to Python and SQL Part 2](#intro-to-python-and-sql-part-2)
-- [Image, Audio, and Video to Text Transcription with Python](#python-background-for-text-analysis-and-natural-language-processing)
 - [Python and Web APIs](#python-and-web-apis)
+- [Image Audio and Video to Text Transcription with Python](#image-audio-and-video-to-text-transcription-with-python)
 - [Python Background for Text Analysis and Natural Language Processing](#python-background-for-text-analysis-and-natural-language-processing)
 
 ## Intro to Python and SQL Part 1 
@@ -66,7 +66,7 @@ In this workbook, we queried the National Library of Medicine's public API for i
 ### Industry-Documents-API.ipynb
 We created this workbook on google colab. We queried and parsed information from the Industry Documents Library API, and used generative AI to parse and extract data. 
 
-## Image, Audio, and Video to Text Transcription with Python 
+## Image Audio and Video to Text Transcription with Python
 (10/25/24)
 
 In this workshop, we wrote Python Code using Google Colab to extract transcripts from image and video files on the Industry Archives.
