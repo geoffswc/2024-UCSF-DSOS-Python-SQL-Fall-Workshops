@@ -122,6 +122,38 @@ For a test transcription demo, we used a file from the Industry Archives, a coll
 
 One interesting result is that some of the larger language models repeated phrases that weren't evidently present in the video. Hard to know why - it could be hallucination from the AI system, though one participant raised the possibility that larger models might pick up on background music. I listened carefully to the video again and didn't hear any of these phrases, but it's still possible that the larger more powerful models are attempting to transcribe musical notes into words while smaller models just ignore it (this is a guess, I don't really know). 
 
+## Python Background for Text Analysis and Natural Language Processing (11/1/24)
+
+This workshop covered programming techiques for cleaning and preparing text data for machine learning and natural language processing projects.
+Much of the material for this week's workshop is available in:
+
+* https://github.com/geoffswc/Document-Classification
+* https://github.com/geoffswc/Machine-Learning-NLP-Prep
+
+In this workshop, we produced two notebooks.
+
+### Single-Text-Document.ipynb
+
+For the first part of the workshop, we worked with a single string, a short bit of text we copied from the economics entry on wikipedia:
+* https://en.wikipedia.org/wiki/Economics
+
+We removed all non-alphabetical characters, removed stop words, enforced lower case capitalization, then stemmed and lemmatized the word collection.
+We also reviewed techniques for creating new lists in a loop python methods for breaking a string into words (tokenization) and reassembling a list of words back into a passage of text (joining). 
+
+We also emphasized that cleaning text isn't a standard process. While there are common techniques and procedures, the decision of what to keep and what to remove from a dataset (text or otherwise) and how to do this is a decision for the researcher/analyst working with a dataset. You can introduce bias into your dataset through cleaning, so it's always important to consider how you are cleaning text and what decisions you're making as you do this.
+
+### Multiple-Document.ipynb
+
+For the second part of the workshop, we applied the same techniques we used for a single string to clean a column of text data in a pandas dataframe.
+
+For data, we used a collection of opiod documents from the washington post, hosted in the Industry Documents Library.
+* https://ucsf.app.box.com/v/IDL-DataSets/file/780928732201
+
+
+
+
+
+
 
 
 
