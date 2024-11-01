@@ -2,7 +2,10 @@
 
 Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Library
 
-## Intro to Python and SQL, Part 1 (10/4/24)
+[This is the link text](#python-background-for-text-analysis-and-natural-language-processing)
+
+## Intro to Python and SQL, Part 1 
+(10/4/24)
 
 In this workshop, we produced two notebooks
 
@@ -25,7 +28,8 @@ To access the Oregon Sugar Document prepared dataset, see: https://www.industryd
 (follow the link to "data sets" - you may need to scroll to find it. I'll be easier if you sort by file size in ascending order). 
 
 
-## Intro to Python and SQL, Part 2 (10/11/24)
+## Intro to Python and SQL Part 2 
+(10/11/24)
 
 In this workshop, we produced three notebooks.
 
@@ -41,7 +45,8 @@ In his workbook, we downloaded all Covid testing data from carbon health, create
 
 We created this notebook locally with Jupyter Notebook through Anaconda Navigator. It contains code for installing pandasql, reading a csv file into a pandas dataframe through a web url, and creating various analytical queries on the covid testing dataset from Carbon Health. 
 
-## Python and Web APIs, Part 1 (10/18/24)
+## Python and Web APIs
+(10/18/24)
 
 In this workshop, we created four notebooks to investigate how to work with Python Dictionaries to query and parse JSON data from Web APIs. We used the API from the National Library of Medicine's RXNorm database and the Industry Documents Library SOLR based web service for searching documents.
 
@@ -57,7 +62,8 @@ In this workbook, we queried the National Library of Medicine's public API for i
 ### Industry-Documents-API.ipynb
 We created this workbook on google colab. We queried and parsed information from the Industry Documents Library API, and used generative AI to parse and extract data. 
 
-## Image, Audio, and Video to Text Transcription with Python (10/25/24)
+## Image, Audio, and Video to Text Transcription with Python 
+(10/25/24)
 
 In this workshop, we wrote Python Code using Google Colab to extract transcripts from image and video files on the Industry Archives.
 
@@ -122,7 +128,8 @@ For a test transcription demo, we used a file from the Industry Archives, a coll
 
 One interesting result is that some of the larger language models repeated phrases that weren't evidently present in the video. Hard to know why - it could be hallucination from the AI system, though one participant raised the possibility that larger models might pick up on background music. I listened carefully to the video again and didn't hear any of these phrases, but it's still possible that the larger more powerful models are attempting to transcribe musical notes into words while smaller models just ignore it (this is a guess, I don't really know). 
 
-## Python Background for Text Analysis and Natural Language Processing (11/1/24)
+## Python Background for Text Analysis and Natural Language Processing 
+(11/1/24)
 
 This workshop covered programming techiques for cleaning and preparing text data for machine learning and natural language processing projects.
 Much of the material for this week's workshop is available in:
