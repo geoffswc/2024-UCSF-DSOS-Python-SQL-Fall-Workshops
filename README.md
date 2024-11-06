@@ -76,6 +76,9 @@ We used this notebook to use py-tesseract to extract code from a PDF file hosted
 
 First, we searched on "avocado" and used some pdf scands of printed material that led to high quality, high accuracy transcriptions using tesseract.
 If you'd like to try this, go to https://www.industrydocuments.ucsf.edu and search on "avocado" (the IDL team told me they often use this to test search, as avocados have some chemical properties in common with tobacco). 
+
+Note: 11/5/24 - I had it wrong about avocado, it's eggplant! Rachael Taketa who works with the IDL archive did a metadata presentation yesterday and talked about this - evidently eggplants also contain niccotine. 
+
 For a test file, we used "Henry Avocado Recalls Whole Avocados Because Of Possible Health Risk" 
 https://www.industrydocuments.ucsf.edu/tobacco/docs/#id=sgfv0291
 This file transcribed with high accuracy using tesseract. This is what we expected, as tesseract is widely used for transcribing printed, typeset material in images.
