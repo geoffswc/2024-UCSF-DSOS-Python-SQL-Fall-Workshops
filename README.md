@@ -7,6 +7,8 @@ Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Libr
 - [Python and Web APIs](#python-and-web-apis)
 - [Image Audio and Video to Text Transcription with Python](#image-audio-and-video-to-text-transcription-with-python)
 - [Python Background for Text Analysis and Natural Language Processing](#python-background-for-text-analysis-and-natural-language-processing)
+- [Document Classification with Scikit-Learn](#document-classification-with-scikit-learn)
+
 
 ## Intro to Python and SQL Part 1 
 (10/4/24)
@@ -162,6 +164,24 @@ For the second part of the workshop, we applied the same techniques we used for 
 
 For data, we used a collection of opiod documents from the washington post, hosted in the Industry Documents Library.
 * https://ucsf.app.box.com/v/IDL-DataSets/file/780928732201
+
+## Document Classification With Scikit Learn
+
+In this workshop, we created/reviewed three workbooks to investigate the use of machine learning to classify documents.
+
+### Example-Classification-Set-DefaultDict.ipynb
+
+This workbook introduced a new (for this series) data structure called a *set*. A set is an unordered collection of unique objects (in this case, unique words). We used this to create a "bag-of-words" model, a collection of the unique words in an entire dataset. Although we won't be mangually creating a set because scikit-learn will handle this for us, it's a useful concept and a data structure you'll want to be familiar with as a programmer. 
+
+### Simple-Classification-Scikit-Learn.ipynb
+
+In this workbook, created two very short movie reviews by hand, then created and applied a random forest classifier to train a machine learning model to 1) evaluate the impact of different words on why a model might predict a positive or negative movie review, and 2) predict the positive or negative sentiment of a new movie review not used in the training of the model.
+
+### Sentiment-Pipeline-Example.ipynb
+
+Eventually, code gets too verbose and complicated for us to type everthing, so we downloaded a code base from github, loaded it into jupyter notebook through anaconda, and ran/reviewed code. This workbook uses a larger movie review dataset to train and evaluate a machine learning model designed to assess the language and sentiment of movie reviews. To access this workbook and the data required to run it, see the github repot at:
+
+https://github.com/geoffswc/Document-Classification
 
 
 
