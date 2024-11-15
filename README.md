@@ -8,6 +8,7 @@ Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Libr
 - [Image Audio and Video to Text Transcription with Python](#image-audio-and-video-to-text-transcription-with-python)
 - [Python Background for Text Analysis and Natural Language Processing](#python-background-for-text-analysis-and-natural-language-processing)
 - [Document Classification with Scikit-Learn](#document-classification-with-scikit-learn)
+- [Document Topic Modeling with Python](#document-topic-modeling-with-python)
 
 
 ## Intro to Python and SQL Part 1 
@@ -182,6 +183,28 @@ In this workbook, created two very short movie reviews by hand, then created and
 Eventually, code gets too verbose and complicated for us to type everthing, so we downloaded a code base from github, loaded it into jupyter notebook through anaconda, and ran/reviewed code. This workbook uses a larger movie review dataset to train and evaluate a machine learning model designed to assess the language and sentiment of movie reviews. To access this workbook and the data required to run it, see the github repot at:
 
 https://github.com/geoffswc/Document-Classification
+
+## Document Topic Modeling with Python
+
+In this workshop, we continued to investigate document classification. Last week, we explored supervised machine learning, this week, we explore unsupervised machine learning and topic modeling through hands-on programming with scikit-learn.
+
+As with supervised machine learning, there are a number of different algorithms for document classification. Although the scikit-learn api makes it relatively simple to swap them out, the underlying mathematics are very different, and different algorithms produce different artifacts that may be useful to analyse how the machine learning model classifies documents. For this workshopm, we'll use Latent Dirichlet allocation (the github repository also contains code for using kmeans clustering, but we will stick with LDA for this workshop). 
+
+## Workbooks
+
+Most of the documentation and workbooks for this workshop are available in:
+
+https://github.com/geoffswc/YouTube-Transcript-Python
+
+### Algorithms and Math
+
+These workshops emphasize hands on programming rather than theory or algorithms, so our discussion of the mathematics behind LDA will be minimal. I encourage you to read about this (and other algorithms). The scikit-learn documentation itself is very thorough and readable. For a high level overview, I found this summary of LDA to be useful.
+
+https://www.tidytextmining.com/topicmodeling
+
+You may notice this link is from a topic tutorial using R, which is widely used along with Python for data science. For now, you can stick to reading the overview for how LDA works, the implementation in different programming languages will be similar (though not necessarily identical!) 
+
+
 
 
 
