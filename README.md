@@ -209,7 +209,6 @@ You may notice this link is from a topic tutorial using R, which is widely used 
 
 In this workshop, we reviewed a few different methods for accessing pre-trained classification and sentiment analysis models. The first technology, Google Cloud API, was presented as a demo as it requires a paid account. The next two, VADER and HuggingFace, involved hands-on coding in Google Colab, though these workbooks should run locally through Jupyter Notebook on your local machine as well.
 
-
 ### HuggingFaceClassifier.ipynb
 
 In this colab workbook, we used HuggingFace to classify legal and advertising documents form the Industry Documents Library. This workbook uses a "Zero Shot Classifier", an approach that allows a model to assess classification probabilities for categories that were not part of the training set:
@@ -221,6 +220,10 @@ https://huggingface.co/tasks/zero-shot-classification
 In this colab notebook, we use VADER to estimate the sentiment and magnitude for movie reviews (the same dataset we used last week when we trained a custom model). 
 
 https://github.com/cjhutto/vaderSentiment
+
+We discussed that VADER was trained on social media data, and that this may not provide the best model for assessing whether a movie review is positive or negative. Here's a link for how to customize HuggingFace to assess the sentiment for movie reviews based on the imdb dataset (I haven't looked into this yet, it might be a good topic for a future group coding meetup). 
+
+https://huggingface.co/docs/transformers/en/tasks/sequence_classification
 
 ### Predict_Text_Sentiment_And_Category.ipynb
 
