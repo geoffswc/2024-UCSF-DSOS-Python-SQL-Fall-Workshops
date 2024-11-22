@@ -9,6 +9,7 @@ Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Libr
 - [Python Background for Text Analysis and Natural Language Processing](#python-background-for-text-analysis-and-natural-language-processing)
 - [Document Classification with Scikit-Learn](#document-classification-with-scikit-learn)
 - [Document Topic Modeling with Python](#document-topic-modeling-with-python)
+- [Classification Sentiment Analysis and Topic Modeling using Cloud Based APIs](#classification-sentiment-analysis-and-topic-modeling-using-cloud-based-apis)
 
 
 ## Intro to Python and SQL Part 1 
@@ -203,6 +204,8 @@ These workshops emphasize hands on programming rather than theory or algorithms,
 https://www.tidytextmining.com/topicmodeling
 
 You may notice this link is from a topic tutorial using R, which is widely used along with Python for data science. For now, you can stick to reading the overview for how LDA works, the implementation in different programming languages will be similar (though not necessarily identical!) 
+
+## Classification Sentiment Analysis and Topic Modeling using Cloud Based APIs
 
 
 
