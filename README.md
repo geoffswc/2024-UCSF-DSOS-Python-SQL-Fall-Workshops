@@ -207,6 +207,32 @@ You may notice this link is from a topic tutorial using R, which is widely used 
 
 ## Classification Sentiment Analysis and Topic Modeling using Cloud Based APIs
 
+In this workshop, we reviewed a few different methods for accessing pre-trained classification and sentiment analysis models. The first technology, Google Cloud API, was presented as a demo as it requires a paid account. The next two, VADER and HuggingFace, involved hands-on coding in Google Colab, though these workbooks should run locally through Jupyter Notebook on your local machine as well.
+
+
+### HuggingFaceClassifier.ipynb
+
+In this colab workbook, we used HuggingFace to classify legal and advertising documents form the Industry Documents Library. This workbook uses a "Zero Shot Classifier", an approach that allows a model to assess classification probabilities for categories that were not part of the training set:
+
+https://huggingface.co/tasks/zero-shot-classification
+
+### VaderTest.ipynb
+
+In this colab notebook, we use VADER to estimate the sentiment and magnitude for movie reviews (the same dataset we used last week when we trained a custom model). 
+
+https://github.com/cjhutto/vaderSentiment
+
+### Predict_Text_Sentiment_And_Category.ipynb
+
+This workbook was presented as a demo, as it relies on a paid service. This workbook calls Google's Cloud based language API to assess the sentiment and magnitude of a passage of text, and identify the probability that it is associated with different topics. This workbook is available in a different repo:
+
+https://github.com/geoffswc/GCP-Auto-AI-Workshop/blob/main/Predict_Text_Sentiment_And_Category.ipynb
+
+
+
+
+
+
 
 
 
