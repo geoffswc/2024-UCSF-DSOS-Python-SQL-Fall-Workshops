@@ -10,6 +10,7 @@ Code and Data for the 2024 Fall Python/SQL fall workshop series at the UCSF Libr
 - [Document Classification with Scikit-Learn](#document-classification-with-scikit-learn)
 - [Document Topic Modeling with Python](#document-topic-modeling-with-python)
 - [Classification Sentiment Analysis and Topic Modeling using Cloud Based APIs](#classification-sentiment-analysis-and-topic-modeling-using-cloud-based-apis)
+- [Sharing Versioning and Collaborating with Git and Github](#sharing-versioning-and-collaborating-with-git-and-github)
 
 
 ## Intro to Python and SQL Part 1 
@@ -230,6 +231,22 @@ https://huggingface.co/docs/transformers/en/tasks/sequence_classification
 This workbook was presented as a demo, as it relies on a paid service. This workbook calls Google's Cloud based language API to assess the sentiment and magnitude of a passage of text, and identify the probability that it is associated with different topics. This workbook is available in a different repo:
 
 https://github.com/geoffswc/GCP-Auto-AI-Workshop/blob/main/Predict_Text_Sentiment_And_Category.ipynb
+
+## Sharing Versioning and Collaborating with Git and Github
+
+In this workshop, we set up a github repository for a sample Capstone programming project using Jupyter notebook. We set up a github repo, added python code and markup in a jupyter notebook, then created a README file with headers, formatting, a table of contents, and embedded graphics. 
+
+### Sample Repository
+
+For an example of the repository we created, see: https://github.com/geoffswc/Capstone
+
+### Unix Based Github Workshop
+
+Sofware Carpentries offers a more technically oriented Github workshop that uses Unix and focuses on collaborating on a common set of files, including managing merge requests, rolling back to previous versions in the repository history, and tagging releases. 
+
+The software carpentry tutorial is available at: https://swcarpentry.github.io/git-novice/
+
+For a recording of a previous version of this workshop in the UCSF CLE: https://courses.ucsf.edu/course/view.php?id=5208
 
 
 
